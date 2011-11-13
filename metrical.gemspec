@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency "metric_fu", "~> 2.1.1"
-  s.add_runtime_dependency "main", "~> 4.6.0"
+  s.add_runtime_dependency "metric_fu", "~> 2.1.2"
+  s.add_runtime_dependency "main", ">= 4.6.0"
   s.add_runtime_dependency "rake"
 end
